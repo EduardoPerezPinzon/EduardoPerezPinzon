@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PracticaNueva</string>
+    <string name="txtnombre">Nombre</string>
+    <string name="edit1">Escribe tu nombre</string>
+    <string name="txttelefono">Telefono</string>
+    <string name="edit2">Escribe tu numero</string>
+    <string name="txtfecha">Fecha De Nacimiento</string>
+    <string name="edit3">Escribe tu fecha</string>
+    <string name="txthobbies">Hobbies</string>
+    <string name="edit4"></string>
+    <string name="chkjugar">Jugar</string>
+    <string name="edit5"></string>
+    <string name="chkpasear">Pasear</string>
+    <string name="edit6"></string>
+    <string name="chkbailar">Bailar</string>
+    <string name="edit8"></string>
+    <string name="rbtn1">Soltero</string>
+    <string name="edit9"></string>
+    <string name="rbtn2">Casado</string>
+    <string name="edit10"></string>
+    <string name="rbtn3">Divorciado</string>
+    <string name="edit11"></string>
+    <string name="btn1">Cancelar</string>
+    <string name="edit12"></string>
+    <string name="btn2">Registrar</string>
+<string name="edit13"></string>
+</resources>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/pngfoto"
+    android:layout_width="120dp"
+    android:layout_height="160dp"
+    android:src="@drawable/pngfoto"
+    />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-1dp"
+        android:layout_toRightOf="@id/pngfoto"
+        android:background="#9553C5"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtnombre"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:autofillHints="48pd"
+        android:text="@string/edit1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="40dp"
+        android:layout_toRightOf="@id/pngfoto"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txttelefono"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txttelefono"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:autofillHints="48pd"
+        android:minHeight="48dp"
+        android:text="@string/edit2" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_toRightOf="@id/pngfoto"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtfecha"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtfecha"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="-20dp"
+        android:autofillHints="pd"
+        android:minHeight="70dp"
+        android:text="@string/edit3" />
+
+
+
+    <TextView
+        android:id="@+id/hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pngfoto"
+        android:layout_marginHorizontal="10dp"
+        android:background="#848285"
+        android:text="@string/txthobbies"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"  />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pngfoto"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:minHeight="50dp"
+        android:text="@string/chkjugar"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pngfoto"
+        android:layout_marginLeft="15dp"
+        android:checked="true"
+        android:minHeight="180dp"
+        android:text="@string/chkpasear"
+        android:textSize="12sp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pngfoto"
+        android:layout_marginLeft="35dp"
+        android:checked="true"
+        android:minHeight="275dp"
+        android:text="@string/chkbailar"
+        android:textSize="13sp"/>
+
+
+    <TextView
+        android:id="@+id/EstadoCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pngfoto"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="200dp"
+        android:background="#F6F3F8"
+        android:fontFamily="sans-serif-black"
+        android:text="Estado Civil"
+        android:textSize="20dp" />
+
+
+    <RadioGroup
+        android:id="@+id/rgr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="200dp"
+            android:checked="true"
+            android:text="@string/rbtn1"
+            android:textColor="#7515BA" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="200dp"
+            android:checked="true"
+            android:text="@string/rbtn2"
+            android:textColor="#7515BA" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="200dp"
+            android:checked="true"
+            android:text="@string/rbtn3"
+            android:textColor="#7515BA" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottons2"
+            android:orientation="horizontal"
+
+
+            >
+
+            <Button
+                android:id="@+id/ini1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="130dp"
+                android:text="@string/btn1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn2"
+
+
+                />
+
+        </LinearLayout>
+
+
+    </RadioGroup>
+</RelativeLayout>
+
+
+
